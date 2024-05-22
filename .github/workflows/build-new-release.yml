@@ -87,7 +87,7 @@ jobs:
             artifact_name: Jellyfin-intros-TrueHD
             true_hd: true
             legacy: true
-          - tag: ${{ github.event.inputs.webReleaseTagName }}
+          - tag: release-10.9.z
             repository: jellyfin/jellyfin-web
             artifact_name: Jellyfin-secondary
             legacy: false
